@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="app_name">Android Guide</string>
+    <string name="terms">Terminology</string>
+    <string name="action_about">About</string>
+    <string name="action_help">Help</string>
+    <color name="red">#bb3737</color>
+    <color name="yellow">#ffff66</color>
+    <string name="aboutString">James Boyer - Computer Programming and Analysis</string>
+    <string name="helpStringMain">Terminology: will allow you to search for android related terms.\n
+       Website: will allow you to view a collection of sites related to android development</string>
+    <string name="helpStringTerms">After three letters you will be suggested android terms,
+                                   click to see their definitions</string>
+    <string name="helpStringWebsite">This list of android development websites will help you
+                                     with development. click to open the links</string>
+    <string name="websites">Websites</string>
+    <string name="web_instr">Browse the links below for helpful information about android development</string>
+    <string name="term_instr">Start searching for android terms in the textbox below</string>
+    <string-array
+        name="list_urls">
+        <item>Googles android development site</item>
+        <item>Popular android development forum</item>
+        <item>List of specific android tutorials-Vogella</item>
+        <item>MIT\'s app development guide</item>
+        <item>Android open source development guide</item>
+        <item>Learning to use the action bar</item>
+        <item>Parsing XML data in android</item>
+        <item>Android blog</item>
+        <item>Weekly android newsletter</item>
+        <item>Android backend server tutorials</item>
+        <item>Simple guide for new android developers</item>
+        <item>Icon generators</item>
+    </string-array>
+    <string-array
+        name="list_urls_links">
+        <item>https://developer.android.com/training/index.html</item>
+        <item>http://forum.xda-developers.com/</item>
+        <item>http://www.vogella.com/tutorials/android.html</item>
+        <item>http://appinventor.mit.edu/explore/</item>
+        <item>http://source.android.com/source/developing.html</item>
+        <item>http://www.sitepoint.com/better-user-interfaces-android-action-bar/</item>
+        <item>http://www.sitepoint.com/learning-to-parse-xml-data-in-your-android-app/</item>
+        <item>http://www.smashingmagazine.com/tag/android/</item>
+        <item>http://androidweekly.net/</item>
+        <item>https://parse.com/docs/android_guide</item>
+        <item>http://www.techrepublic.com/blog/software-engineer/a-newbies-guide-to-android-development/</item>
+        <item>http://romannurik.github.io/AndroidAssetStudio/</item>
+
+    </string-array>
+
+
+    <string-array
+        name="list_terms">
+        <item>ADB</item>
+        <item>Emulator</item>
+        <item>Android</item>
+        <item>Screenshot2</item>
+        <item>Gradle</item>
+        <item>lint</item>
+        <item>Project</item>
+        <item>Panel</item>
+        <item>Toolbar</item>
+        <item>Status Bar</item>
+        <item>Preview pane</item>
+        <item>Android pane</item>
+        <item>Project explorer</item>
+        <item>idea folder</item>
+        <item>Intellisense</item>
+        <item>Modules</item>
+        <item>Live layout</item>
+        <item>git init</item>
+        <item>git commit</item>
+        <item>git push</item>
+        <item>git add</item>
+        <item>git pull</item>
+        <item>git branch</item>
+        <item>git clone</item>
+    </string-array>
+    <string-array
+        name="list_terms_def">
+        <item>The android debug bridge, it essentially provides a bridge to the
+  android device. It has various features that involve interacting with
+  the current android device. We used it to install our apk file via
+  \'adb install path/to/apk.apk\', this put our built android application
+  onto the virtual device so we could test our app. We also used it to connect
+  to the android virtual device  via \'adb shell\' this let us access the filesystem
+  of the virtual device allowing us to view the filesystem and remove files.</item>
+
+        <item>The emulator command allowed us to start the virtual devices via
+  \'emulator -avd avdname\' emulator also allows us to change many aspects of
+  the emulator such as debugging options, audio options, networking options,
+  ui options and more. It is basically a way to start virtual devices and
+  customize many aspects about them.</item>
+        <item>The android command provides a way to list your current android virtual
+  devices(\'android list avd\') and also create new ones(\'android create avd -n [name] -t [targetid]\')
+  Also if you need to you can also move update and delete AVDs. It provides
+  everything you need for managing your virtual devices.</item>
+        <item>The screenshot2 command lets you take a snapshot of the current virtual device
+  \'screenshot2 -e lab01.png\', \'-e\' specifies that you want to capture the first emulator.
+  It is pretty simple and only has a couple more options including \'-d\' which captures
+  the first android device, \'-s\' allows you to specify a serial number, and \'-l\' which captures
+  the snapshot in landscape mode</item>
+        <item>Gradle is a very important command, it builds your app. If you have a build.gradle file
+  in your project directory and run \'gradle build\', assuming the app has no errors, it will
+  create a huge build directory which includes your .apk file which is what is run on the
+  android device.</item>
+        <item>Lint allows for analysis of your source code and outputting it in a
+  .xml(\'lint --xml [output.xml] [projectdir]\') or .html(\'lint --html [output.html] [projectdir]\')
+  file. It reports errors and warnings about your source code clearly and also allowing for some
+  customization of what errors are shown or not such as \'-w\' which ignores warnings and only looks
+  for errors
+</item>
+        <item>A project is your whole project which contains everything required for your
+   app to successfully build.</item>
+        <item>A panel is a section that can provide information or tools that can be opened
+   by clicking it.</item>
+        <item>A toolbar is a list of shortcuts which allow you to open various things or
+   preform tasks, it is also customizable allowing you to add or remove
+   shortcuts.</item>
+        <item>A status bar displays notifications about updates and information like the
+   android studio version.</item>
+        <item>The preview pane should show your android device and what the layout will
+   currently look like, it also has various options to customize the preview
+   device.</item>
+        <item>The android pane has options to interact with your current running virtual
+   device such as screenshots, recordings, log info and more. </item>
+        <item>The project explorer allows you to view your source tree as a hierarchy and
+   open files from there.</item>
+        <item>The .idea folder stores many xml files which contain information
+   about the project for example gradle settings, module settings version
+   control settings and more.</item>
+        <item>Intellisense will provide a list of valid completions to your code in order
+   to speed up your coding process and help you keep track of valid keywords. </item>
+        <item>modules make up a project, example a module contains the source code and app
+   resources.</item>
+        <item>Live layout is a preview of what your app layout will look on the screen and
+   it changes as you code.</item>
+        <item>git init will create an empty git repository.</item>
+        <item>git commit will record and save any changes to the repository.</item>
+        <item>git push will update your remote repository on github and your local
+   repository.</item>
+        <item>git add will add contents to your index.</item>
+        <item>git pull will fetch contents from another repository and merge with your
+   project.</item>
+        <item>git branch will allow you list, create or delete branches.</item>
+        <item>git clone will allow you to copy a repository into a new local directory.</item>
+
+    </string-array>
+
+
+</resources>
